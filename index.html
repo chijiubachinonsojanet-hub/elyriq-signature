@@ -3,24 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <!-- SEO & Identity -->
-    <title>Elyriq Signature | Thoughtful Skincare & Everyday Glow</title>
-    <meta
-      name="description"
-      content="Thoughtfully curated, glow-focused skincare rituals crafted to make daily self-care feel intentional, elegant, and radiant."
-    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Google Fonts: Inter (Body) & Playfair Display (Headings) -->
+    <!-- Primary Title & Meta Tags -->
+    <title>Elyriq Signature | Thoughtful Skincare &amp; Everyday Glow</title>
+    <meta name="title" content="Elyriq Signature | Thoughtful Skincare & Everyday Glow" />
+    <meta name="description" content="Discover Elyriq Signature's 4-piece glow ritual for radiant skin. Includes Face & Body Wash, Glow Me Face Cream, Buttered Body, and Body Polish. Complete set ₦30,000." />
+    <meta name="keywords" content="Elyriq Signature, skincare Nigeria, glow body polish Lagos, buttered body, brightening face cream Nigeria, luxury skincare ritual" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://elyriqsignature.org/" />
+
+    <!-- Open Graph / Facebook / WhatsApp Preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elyriqsignature.org/" />
+    <meta property="og:title" content="Elyriq Signature | Thoughtful Skincare & Everyday Glow" />
+    <meta property="og:description" content="Four essentials. One considered routine. Explore our complete 4-piece skincare set and lip care collection." />
+    <meta property="og:image" content="https://elyriqsignature.org/images/hero-model-products.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://elyriqsignature.org/" />
+    <meta name="twitter:title" content="Elyriq Signature | Thoughtful Skincare & Everyday Glow" />
+    <meta name="twitter:description" content="Thoughtful skincare rituals crafted for long-lasting radiance and everyday glow." />
+    <meta name="twitter:image" content="https://elyriqsignature.org/images/hero-model-products.jpg" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Brand",
+          "@id": "https://elyriqsignature.org/#brand",
+          "name": "Elyriq Signature",
+          "url": "https://elyriqsignature.org/",
+          "logo": "https://elyriqsignature.org/images/hero-model-products.jpg",
+          "sameAs": [
+            "https://www.instagram.com/elyriqsignature"
+          ]
+        },
+        {
+          "@type": "Product",
+          "name": "Elyriq Signature Skincare Ritual Set",
+          "image": [
+            "https://elyriqsignature.org/images/hero-model-products.jpg",
+            "https://elyriqsignature.org/images/face-body-wash.jpg",
+            "https://elyriqsignature.org/images/glow-me-face-cream.jpg",
+            "https://elyriqsignature.org/images/elyriq-polish.jpg",
+            "https://elyriqsignature.org/images/buttered-body.jpg"
+          ],
+          "description": "The complete 4-piece skincare ritual including Face & Body Wash, Glow Me Face Cream, Elyriq Polish, and Buttered Body cream.",
+          "brand": {
+            "@id": "https://elyriqsignature.org/#brand"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "30000",
+            "priceCurrency": "NGN",
+            "availability": "https://schema.org/InStock",
+            "url": "https://elyriqsignature.org/#skincare"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much is the complete skincare set?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The complete Elyriq Signature 4-piece ritual set is ₦30,000."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I buy individual skincare products separately?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Our skincare essentials are formulated to work together and are sold exclusively as a complete set."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I place an order?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Orders are arranged directly through our official WhatsApp concierge at 09079782731."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
-    <!-- React mounts the entire application into this div -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

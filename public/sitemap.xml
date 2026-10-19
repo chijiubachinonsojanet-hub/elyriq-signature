@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://elyriqsignature.org/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://elyriqsignature.org/images/hero-model-products.jpg</image:loc>
+      <image:title>Elyriq Signature - Considered Glow Ritual</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elyriqsignature.org/images/face-body-wash.jpg</image:loc>
+      <image:title>Elyriq Signature Face and Body Wash</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elyriqsignature.org/images/glow-me-face-cream.jpg</image:loc>
+      <image:title>Glow Me Face Cream</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elyriqsignature.org/images/elyriq-polish.jpg</image:loc>
+      <image:title>Elyriq Body Polish</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://elyriqsignature.org/images/buttered-body.jpg</image:loc>
+      <image:title>Buttered Body Whipped Butter</image:title>
+    </image:image>
+  </url>
+</urlset>
